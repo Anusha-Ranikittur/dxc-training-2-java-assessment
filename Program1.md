@@ -26,7 +26,7 @@ class Truck extends Car {
     }
 }
 
- class MonsterTruck extends Truck {
+ public class MonsterTruck extends Truck {
 	public static void main (String[] args) {
 		MonsterTruck m = new MonsterTruck();
 		m.m1();
